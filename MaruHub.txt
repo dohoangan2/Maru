@@ -1,0 +1,4 @@
+script.Parent.Touched:Connect(function(hit) 
+  local player = game. Players:GetPlayerFromCharacter(hit. Parent)
+  player:Kick("Có Cái Con Cặc Nè Cưng Chứ Đâu Ra maru free")
+end) 
